@@ -1,0 +1,16 @@
+
+.content h3{
+	border-bottom: 3px solid #900C3F;
+	padding-top: 18px;
+	text-align: left;
+}
+
+textarea{
+	width: 100%;
+	height: 100px;
+}
+
+h6{
+    font-size: 70%;
+}
+

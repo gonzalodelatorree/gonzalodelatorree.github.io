@@ -1,0 +1,106 @@
+/* GONZALO DE LA TORRE MARTÍNEZ */
+
+
+.comments{
+	grid-area: comments;
+	position: relative;
+	border-width: 3px;
+	border-color: #900C3F;
+	border-style: solid;
+	width: 200px;
+	height: auto;
+	text-align: justify;
+}
+
+.comments h3{
+	color: #900C3F;
+	text-align: center;
+}
+
+.content p{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+}
+.content img {
+	width: 200px;
+	border-width: 3px;
+	border-color: #900C3F;
+	border-style: solid;
+	margin: 10px;
+
+}
+.content h3{
+	border-bottom: 3px solid #900C3F;
+	padding-top: 18px;
+	text-align: left;
+}
+.content a{
+	text-decoration: none;
+}
+.content li{
+	list-style: none;
+	display: inline;
+}
+.content li img{
+	width: 30px;
+	border-width: 0px;
+}
+
+#button_com{
+	font-size: 23px;
+	text-align: center;
+	float: right;
+	cursor: pointer;
+	border-width: 1px;
+	border-color: #900C3F;
+	color: #900C3F;
+	border-style: solid;
+	width: 35px;
+
+}
+
+.no_activo{
+	display: none;
+}
+
+.comment{
+	border-radius: 5px;
+	border: 1px solid #900C3F;
+	padding: 10px;
+	height: auto;
+	text-align: center;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+.comment h1{
+	font-size: 12px;
+}
+.comment h2{
+	font-size: 10px;
+	color: #383838;
+}
+.comment p{
+	font-family: Arial;
+}
+
+#formulario{
+	padding: 10px;
+	height: auto;
+	font-size: 14px;
+	background-color: #B1E8CE;
+	display: block;
+	text-align: center;
+}
+
+textarea {
+	font-size: 11px;
+}
+
+@media only screen and (max-width: 700px) {
+
+	.comments{
+		width: auto;
+	}
+}

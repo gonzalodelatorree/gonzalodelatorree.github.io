@@ -1,0 +1,128 @@
+/* GONZALO DE LA TORRE MARTÍNEZ */
+
+
+@media print {
+
+	body{
+		font-family: Arial;
+		width: 705px;
+		margin: auto;
+		margin-top: 20px;
+		background-color: white;
+	}
+
+	header{
+		border-width: 3px;
+		border-color: #000000;
+		border-style: solid;
+		margin-bottom: 30px;
+	}
+
+	header a{
+		text-decoration: none;
+		color: #000000;
+	}
+
+	header h1{
+		margin-top: 10px;
+		margin-left: 60px;
+		margin-right: 60px;
+		text-align: center;
+		font-size: 62px;
+
+	}
+
+	.cabecera {
+		display: grid;
+		grid-gap: 10px;
+	}
+
+	.box {
+		background-color: white;
+		padding: 20px;
+		font-size: 150%;
+
+	}
+
+	.titulo {
+		grid-column: 1 / span 3;
+		height: 80px;
+	}
+
+	.logo {
+		grid-column: 4 ;
+		grid-row: 1 / span 2;
+	}
+	.logo img{
+		width: 130px;
+		margin-top: 15px;
+		margin-left: 8px;
+		border-width: 3px;
+		border-color: #000000;
+		border-style: solid;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.lateral {
+		grid-area: lateral;
+		display: none;
+	}
+
+	.content {
+		grid-area: content;
+		position: relative;
+		border-width: 3px;
+		border-color: #000000;
+		border-style: solid;
+		width: auto;
+		height: auto;
+		text-align: justify;
+	}
+
+	.content p{
+		font-size: 13px;
+	}
+	.content img {
+		width: 200px;
+		border-width: 3px;
+		border-color: #000000;
+		border-style: solid;
+		margin: 10px;
+
+	}
+	.content h3{
+		border-bottom: 3px solid #000000;
+	}
+
+	.content li{
+		display: none;
+	}
+
+	.cuerpo {
+		display: grid;
+		grid-gap: 0px;
+		grid-template-areas:
+		"lateral content content";
+		background-color: white;
+	}
+
+	footer{
+		background-color: white;
+		border-width: 3px;
+		border-color: #000000;
+		border-style: solid;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
+	footer h5{
+		text-align: center;
+	}
+
+	#button_com{
+		display: none;
+	}
+}

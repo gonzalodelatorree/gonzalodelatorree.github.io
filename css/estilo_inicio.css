@@ -1,0 +1,53 @@
+/* GONZALO DE LA TORRE MARTÍNEZ */
+
+
+.events {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	color: #444;
+}
+
+.event {
+	background-color: #B1E8CE;
+	color: #fff;
+	border-radius: 5px;
+	padding: 15px;
+	font-size: 150%;
+	height: auto;
+	text-align: center;
+}
+
+.event img{
+	width: 180px;
+	border-width: 2px;
+	border-color: #900C3F;
+	border-style: solid;
+}
+.event h5{
+	font-size: 14px;
+	color: #900C3F;
+	border-width: 3px;
+	border-color: #900C3F;
+	border-style: solid;
+	border-radius: 6px;
+	padding: 2px;
+	background-color: white;
+}
+.event a{
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+	.events {
+		display: inline;
+	}
+	
+	.event {
+		margin-bottom: 8px;
+	}
+	
+	.event img{
+		width: 95%;
+	}
+}
